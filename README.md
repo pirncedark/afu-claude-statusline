@@ -2,15 +2,7 @@
 
 A colorful multi-row status bar for [Claude Code](https://claude.com/claude-code): model, cost per 1M tokens, effort, quota bars for Claude / Gemini / OpenCode / Codex, context usage with 5H / 7D reset times, plus a subagent panel.
 
-```
-MODEL    Opus        $68 │ high │
-NOBET    ...
-CLAUDE   ███░░░░░░░  30% │   5K │ ↻ 17:13
-GEMINI   ▒▒▒▒▒▒▒▒▒▒    — │ ...
-OPENCODE ▒▒▒▒▒▒▒▒▒▒    — │ ...
-CODEX    ▒▒▒▒▒▒▒▒▒▒    — │ ...
-Bağlam   ░  12% │ 5H ░ 30% ↻ 17:13 │ 7D ░ 10% ↻ 12:06
-```
+![Afu Claude Statusline preview](docs/preview.png)
 
 Works standalone: rows for providers you don't use simply show `—`.
 
